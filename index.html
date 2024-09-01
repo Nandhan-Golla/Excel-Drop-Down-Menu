@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NRN Tech</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>NRN Technologies</h1>
+        <input type="file" id="fileInput" accept=".xlsx" />
+        <select id="dropdown">
+            <option value="">Select a column</option>
+        </select>
+    </header>
+
+    <p> The Chosen Files Must be in xlsx format</p>
+
+    <main>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <!-- Table headers will be populated here -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table data will be populated here -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
